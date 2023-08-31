@@ -1,0 +1,84 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Parag Shendye"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Parag Shendye."
+  subtitle: "Software Developer"
+  description: "I work at <a target='_blank' href='https://radity.com/'>Incoretex GmbH</a>, an electronics company in Aachen, Germany."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg" 
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/parag-shendye"
+
+    - icon: "github"
+      URL: "https://github.com/parag-shendye"
+# about
+about:
+  enable: true
+  title: "Introduction"
+  content: '<p class="lead">
+    After successfully finishing my Masters in Computer Aided Mechanical Engineering at RWTH Aachen, 
+    I joined as a Software Developer at Incoretex GmbH. I have experience of working with machine learning and IoT/IIoT. 
+    The world of edge devices and deep learnin captures most of my interest.
+    </p>
+    <p class="lead">
+    My area of focus lies in devlopment and deployment of Deep learning models for various IoT products. 
+    I am also responsible for development of IoT firmware.
+    </p>'
+
+  image:
+    x: "images/profile.jpg"
+
+# experience
+experience:
+  enable: false
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/parag-shendye"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Front-End Developer"
+      company: "Radity"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Sr. Front-End Developer"
+      company: "Textic"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Jr. Front-End Developer"
+      company: "Cyberse"
+      duration: "Jun 2009 - Mar 2010"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "RWTH Aachen, Aachen, Germany"
+      year: "2017-2021"
+      degree: "M.Sc., Computer Aided Mechanical Engineering"
+      grade: 1.9
+
+    - university: "Savitribai Phule Pune University (Formerly Pune University)"
+      year: "2012-2016"
+      degree: "B.Eng, Mechanical Engineering"
+      grade: 75%
+
+

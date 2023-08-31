@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  server:
+    container_name: hugo
+    image: klakegg/hugo:ext-ubuntu
+    command: server --theme raditian-free-hugo-theme --bind 0.0.0.0
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
