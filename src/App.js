@@ -19,6 +19,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [load, upadateLoad] = useState(true);
 
+  // Add this at the top of your App function
+useEffect(() => {
+  console.log("React is rendering!");
+  document.title = "App is loaded";
+}, []);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -28,7 +34,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/">
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
