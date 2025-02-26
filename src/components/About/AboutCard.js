@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 import {name, city, country, companyName, university} from "../constants.js";
 
 function AboutCard() {
