@@ -4,17 +4,10 @@
     {
       "src": "/(.*)",
       "dest": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*).css",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/css"
-        }
-      ]
+    },
+    { 
+      "src": "/(.*).css", 
+      "headers": { "Content-Type": "text/css" } 
     }
   ]
 }
