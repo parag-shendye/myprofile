@@ -1,13 +1,9 @@
 {
   "framework": "create-react-app",
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    },
-    { 
-      "src": "/(.*).css", 
-      "headers": { "Content-Type": "text/css" } 
+      "source": "/((?!.*\\.css$).*)",
+      "destination": "/index.html"
     }
   ]
 }
